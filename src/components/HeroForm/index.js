@@ -219,7 +219,7 @@ const FormComponent = ({ onCreate = () => {}, hero = {}, races = [], classes = [
             }
             
             handleCloseModal()
-            await createHero(hero)
+            await createHero(customHero)
         }
 
     }
